@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input-text, select[multiple] {
+	@apply bg-gray-200 rounded px-3 py-2 min-w-[350px] w-fit
+}
+
+select[multiple] {
+	@apply w-96
+}
+
+textarea {
+	@apply bg-gray-200 rounded px-3 py-2 h-36 resize-y
+}
+
+.btn {
+	@apply px-3 py-1 rounded border
+}
