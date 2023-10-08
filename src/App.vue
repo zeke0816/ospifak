@@ -3,10 +3,13 @@
 		<div class="flex justify-between items-center gap-3">
 			<p>OSPIFAK</p>
 			<nav class="flex items-center gap-5">
-				<RouterLink :to="{name: 'home'}">Iniciar sesión</RouterLink>
+				<RouterLink :to="{name: 'home'}">Inicio</RouterLink>
 				<RouterLink to="#">Reintegros y Prestaciones</RouterLink>
+				<!--<RouterLink :to="{name: 'services'}">Prestaciones</RouterLink>-->
 				<RouterLink :to="{name: 'plans'}">Planes</RouterLink>
-				<RouterLink :to="{name: 'profile'}">Mi Perfil</RouterLink>
+				<!--<RouterLink :to="{name: 'employees'}">Empleados</RouterLink>-->
+				<!--<RouterLink :to="{name: 'profile'}">Mi Perfil</RouterLink>-->
+				<RouterLink :to="{name: 'profile.employee'}">Mi Perfil</RouterLink>
 				<RouterLink to="#">Salir</RouterLink>
 			</nav>
 		</div>

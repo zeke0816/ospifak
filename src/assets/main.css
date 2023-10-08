@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.input-text, select[multiple] {
-	@apply bg-gray-200 rounded px-3 py-2 min-w-[350px] w-fit
+.input-text, select {
+	@apply bg-gray-200 rounded px-3 py-2 min-w-[350px] w-fit border-0
 }
 
 select[multiple] {
@@ -16,4 +16,8 @@ textarea {
 
 .btn {
 	@apply px-3 py-1 rounded border
+}
+
+label {
+	@apply text-sm text-gray-400
 }
