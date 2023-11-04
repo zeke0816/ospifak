@@ -4,7 +4,7 @@
 			<p>OSPIFAK</p>
 			<nav class="flex items-center gap-5">
 				<RouterLink :to="{name: 'home'}">Inicio</RouterLink>
-				<RouterLink to="#">Reintegros y Prestaciones</RouterLink>
+				<RouterLink :to="{name: 'requests.employee'}">Reintegros y Prestaciones</RouterLink>
 				<!--<RouterLink :to="{name: 'services'}">Prestaciones</RouterLink>-->
 				<RouterLink :to="{name: 'plans'}">Planes</RouterLink>
 				<!--<RouterLink :to="{name: 'employees'}">Empleados</RouterLink>-->
